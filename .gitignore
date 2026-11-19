@@ -1,0 +1,51 @@
+# Служебные папки Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Папки сборки и результаты компиляции
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+out/
+
+# Скомпилированные объектные файлы, библиотеки и исполняемые файлы
+*.obj
+*.exe
+*.pdb
+*.lib
+*.dll
+*.exp
+*.ilk
+*.idb
+
+# Предкомпилированные заголовки и кэш IntelliSense
+*.pch
+*.ipch
+*.sdf
+*.opensdf
+*.db
+*.opendb
+*.tlog
+*.log
+*.lastbuildstate
+
+# Пакеты NuGet (Google Test и др. восстановятся автоматически при сборке)
+packages/
+!packages/repositories.config
+!**/packages.config
+
+# Временные файлы и файлы CMake (на случай кроссплатформенной сборки)
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
